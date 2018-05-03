@@ -5,21 +5,29 @@
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-//Code here
+function greeting(name){
+  return 'Hello, ' + name
+}
+console.log(greeting('Nate'));
 
 //////////////////PROBLEM 2////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+var newGreeting = function(name){
+  return 'Hello, ' + name;
+};
+console.log(newGreeting('Nate'));
+
 
 //////////////////PROBLEM 3////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+var finalGreeting = (name) => 'Hello, ' + name;
+console.log(finalGreeting('Nate'));
 
 //////////////////PROBLEM 4////////////////////
 
